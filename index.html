@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How well you know me</title>
+    <link rel="stylesheet" href="indexcss.css">
+    <script src="https://kit.fontawesome.com/5f1318dd38.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="q1" class="ques">
+        <h4>What is my nick-name?</h4>
+        <input type="text" name="question" id="ques1" placeholder="Answer" autocomplete="off">
+        <button class="btn" id="btn1">Next</button>
+    </div>
+    <div id="q2" class="ques">
+        <h4>Who is my favorite superhero from MCU?</h4>
+        <input type="text" name="question" id="ques2" placeholder="Answer" autocomplete="off">
+        <button class="btn" id="btn2">Next</button>
+    </div>
+    <div id="q3" class="ques">
+        <h4>What is my favorite thing to do?</h4>
+        <input type="text" name="question" id="ques3" placeholder="Answer" autocomplete="off">
+        <button class="btn" id="btn3">Next</button>
+    </div>
+    <div id="q4" class="ques">
+        <h4>What is my contact number?</h4>
+        <input type="text" name="question" id="ques4" placeholder="Answer" autocomplete="off">
+        <button class="btn" id="btn4">Next</button>
+    </div>
+    <div id="result" class="ques"> <h1 id="win"></h1><h4 id="ans"></h4></div>
+    <div id="hid">
+        <h2>Please enter your name to proceed</h2>
+        <input type="text" name="name" id="name" autocomplete="off" placeholder="Enter name here" autofocus>
+        <small id="error">*Please enter your name to proceed</small>
+        <button class="btn" id="btn1" onclick="btn()">Go <i class="fa fa-arrow-right"></i></button></div>
+    <script src="quiz.js"></script>
+</body>
+</html>
