@@ -43,6 +43,10 @@ input::placeholder{
     cursor: pointer;
     letter-spacing: 0.08rem;
 }
+h6{
+    display: inline-block;
+    margin: 10px;
+}
 
 #hid{
     display: flex;

@@ -25,16 +25,26 @@
         <button class="btn" id="btn3">Next</button>
     </div>
     <div id="q4" class="ques">
-        <h4>What is my contact number?</h4>
+        <h4>What is my college name?</h4>
         <input type="text" name="question" id="ques4" placeholder="Answer" autocomplete="off">
         <button class="btn" id="btn4">Next</button>
     </div>
-    <div id="result" class="ques"> <h1 id="win"></h1><h4 id="ans"></h4></div>
+    <div id="result" class="ques"> <h1 id="win"></h1><h4 id="ans"></h4><button class="btn" id="showans" onclick="showAns()">View Answers</button></div>
     <div id="hid">
         <h2>Please enter your name to proceed</h2>
         <input type="text" name="name" id="name" autocomplete="off" placeholder="Enter name here" autofocus>
         <small id="error">*Please enter your name to proceed</small>
-        <button class="btn" id="btn1" onclick="btn()">Go <i class="fa fa-arrow-right"></i></button></div>
+        <button class="btn" id="go">Go <i class="fa fa-arrow-right"></i></button></div>
+        <div class="ques" id="show">
+            <h4>What is my nick-name?</h4><h6>Answer : ayush</h6><h6 id="ans1"></h6>
+
+            <h4>Who is my favorite superhero from MCU?</h4><h6>Answer : iron man</h6><h6 id="ans2"></h6>
+
+            <h4>What is my favorite thing to do?</h4><h6>Answer : coding</h6><h6 id="ans3"></h6>
+
+            <h4>What is my college name?</h4><h6>Answer : allahabad university</h6><h6 id="ans4"></h6>
+
+        </div>
     <script src="quiz.js"></script>
 </body>
 </html>
